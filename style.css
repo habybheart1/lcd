@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: brown;
+  margin: 0 auto;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+.container {
+  width: 1000px;
+  height: auto;
+  margin: 0px auto;
+  background-color: gray;
+}
+/*header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}*/
+.header-logo img {
+  width: 85px;
+  height: 60px;
+  border-radius: 20%;
+}
+h1 {
+  color: #cdcdcd;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin-top: 5px;
+  font-size: 45px;
+}
+h3 {
+  margin: auto 10px;
+}
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.header-order {
+  padding-top: 20px;
+}
+.header-menu {
+  background-color: whitesmoke;
+  margin: 0px;
+  padding: 0px;
+}
+nav ul {
+  margin-top: 0px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(175, 42, 42);
+  padding: 15px;
+  display: block;
+}
+nav a:hover {
+  background-color: rgb(243, 91, 91);
+}
+.main-content {
+  line-height: 1.5em;
+  word-spacing: 3px;
+  padding: auto 20px;
+  margin: auto 15px;
+}
+.main-content p {
+  text-indent: 35px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+.gallery img {
+  float: left;
+  width: 25%;
+  height: 200px;
+  padding: 5px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.recommend {
+  display: inline;
+}
+video {
+  width: 500px;
+  height: 500px;
+}
+label {
+  display: inline;
+}
+input {
+  padding: 5px auto;
+  border: none;
+  border-radius: 4px;
+  background-color: #cdcdcd;
+}
+input[type="text"],
+[type="email"],
+[type="tel"],
+[type="date"] {
+  width: 80%;
+}
+@media (max-width: 600px) {
+}

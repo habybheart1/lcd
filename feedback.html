@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback form ABIZ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main-header">
+        <div class="header-logo">
+          <img src="dynamic (Logo).png" alt="Company-logo" />
+        </div>
+        <h1>ABIZ DYNAMIC SERVICES</h1>
+        <div class="header-order">
+          <select name="buy" id="buy">
+            <option value="12">12 inch</option>
+            <option value="8.5">8.5 inch</option>
+          </select>
+          <a href="payment.html"><input type="submit" value="BUY NOW" /></a>
+        </div>
+      </div>
+      <nav class="header-menu">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Product.html">Products</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h3>Customer Feedback form</h3>
+    <p>Kindly fill the form above</p>
+    <main>
+      <section>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <div class="feedbackPI">
+            <label for="Fname"
+              >First Name:
+              <input
+                type="text"
+                name="Fname"
+                id="Fname"
+                placeholder="ENTER YOUR FIRST NAME"
+            /></label>
+            <br /><br />
+            <label for="Lname"
+              >Last Name:
+              <input
+                type="text"
+                name="Lname"
+                id="Lname"
+                placeholder="ENTER YOUR LAST NAME"
+                required
+              />
+            </label>
+            <br />
+            <br />
+            <label for="email"
+              >Email:
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="ENTER YOUR EMAIL"
+                required
+              />
+            </label>
+            <br />
+            <br />
+            <label for="DOB"
+              >Date of Birth:
+              <input
+                type="date"
+                name="DOB"
+                id="DOB"
+                placeholder="ENTER YOUR DOB"
+              />
+            </label>
+            <br />
+            <br />
+            <label for="Phonenumber"
+              >Phone Number:
+              <input
+                type="tel"
+                name="phonenumber"
+                id="phonenumber"
+                placeholder="ENTER YOUR PHONE NUM"
+              /> </label
+            ><br /><br />
+            <label for="Address"
+              >Address:
+              <textarea
+                name="address"
+                id="address"
+                rows="3"
+                cols="20"
+              ></textarea>
+            </label>
+          </div>
+          <br />
+          <label for="sex"
+            >Gender: <input type="radio" name="gender" id="Female" /> Female
+            <input type="radio" name="gender" id="Male" /> Male
+            <input type="radio" name="gender" id="nill" />Prefer Not to
+            say</label
+          >
+        </fieldset>
+        <fieldset>
+          <p>
+            Did you like the LCD Tablet you bought?
+            <input type="checkbox" name="like" id="yes" />Yes
+            <input type="checkbox" name="like" id="No" />No
+          </p>
+          <label for="size"
+            >Which of our sizes do you prefer:
+            <select name="sizes" id="sizes">
+              <option value="0">8.5 inches</option>
+              <option value="1">10 inches</option>
+              <option value="2">12 inches</option>
+            </select> </label
+          ><br /><br />
+          <label for="delivery"
+            >Do you pay for delivery:
+            <input type="radio" name="yes" id="yes" /> Yes
+            <input type="radio" name="no" id="no" />No</label
+          >
+        </fieldset>
+      </section>
+      <footer><div>THANKS FOR THE PATRONAGE!!! &trade;</div></footer>
+    </main>
+  </body>
+</html>
