@@ -40,10 +40,6 @@ h3 {
   margin-top: 10px;
   padding-top: 10px;
 }
-
-.header-order {
-  padding-top: 20px;
-}
 .header-menu {
   background-color: whitesmoke;
   margin: 0px;
@@ -96,9 +92,6 @@ h2 {
   clear: both;
   display: table;
 }
-.recommend {
-  display: inline;
-}
 video {
   width: 500px;
   height: 500px;
@@ -117,6 +110,24 @@ input[type="text"],
 [type="tel"],
 [type="date"] {
   width: 80%;
+}
+.recommend {
+  margin: 0px 10px;
+  padding: 5px;
+}
+.recommend h3 {
+  margin: 0px;
+  color: rgb(124, 24, 24);
+}
+#buy-now {
+  width: 100px;
+  height: 40px;
+  margin: 0px 5px 0px 10px;
+  padding: 10px 0 10px 0;
+  font-size: large;
+  color: rgb(124, 24, 24);
+  background-color: #cdcdcd;
+  border-radius: 10px;
 }
 @media (max-width: 600px) {
 }
